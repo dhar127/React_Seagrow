@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #4b0082; /* Violet Background */
+  }
+  
+  /* Container */
+  .home-container {
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #ffffff; /* White Background */
+    color: #4b0082; /* Violet Text */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    margin-top: 15px;
+  }
+  
+  .nav-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* White Buttons */
+    color: #4b0082; /* Violet Text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #6a0dad; /* Dark Violet */
+  }
+  
+  /* Section Styles */
+  .about-section,
+  .ride-section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White Background */
+    color: #4b0082; /* Violet Text */
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
+  .about-section h2,
+  .ride-section h2 {
+    font-size: 1.8em;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #4b0082; /* Violet Background */
+    color: #ffffff; /* White Text */
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+  }
+  

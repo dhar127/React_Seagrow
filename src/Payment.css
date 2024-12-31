@@ -1,0 +1,108 @@
+/* App.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #8b5cf6, #d9a8ff);
+    padding: 15px;
+  }
+  
+  form {
+    width: 500px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 18px;
+    color: #6d28d9;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #6d28d9;
+    text-align: center;
+  }
+  
+  /* Input Box Styles */
+  .inputBox {
+    margin: 12px 0;
+  }
+  
+  .inputBox label {
+    margin-bottom: 6px;
+    display: block;
+    color: #6d28d9;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .inputBox input,
+  .inputBox select {
+    width: 100%;
+    border: 2px solid #6d28d9;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .inputBox input:focus,
+  .inputBox select:focus {
+    border-color: #d9a8ff;
+    box-shadow: 0 0 5px #d9a8ff;
+  }
+  
+  /* Submit Button */
+  .submit_btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #6d28d9;
+    color: white;
+    margin-top: 8px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 1px;
+  }
+  
+  .submit_btn:hover {
+    background: white;
+    color: #6d28d9;
+    border: 2px solid #6d28d9;
+  }
+  
+  /* Alert Styles */
+  .alert {
+    padding: 10px;
+    background-color: #4CAF50; /* Green for success */
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Success Message */
+  .successMessage {
+    padding: 10px;
+    background-color: #4CAF50; /* Green for success */
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  
+

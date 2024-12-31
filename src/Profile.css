@@ -1,0 +1,99 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 100px; /* Vertical centering */
+  padding: 20px;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: #4B0082; /* Indigo text */
+  text-align: center; /* Center text within the container */
+}
+
+/* Profile Header */
+.profile-container h2 {
+  color: #4B0082; /* Indigo color */
+  margin-bottom: 20px;
+}
+
+/* Profile Details */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left; /* Align labels and inputs to the left */
+}
+
+.profile-item label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.profile-item span {
+  flex: 2;
+  padding: 5px 10px;
+  background-color: #E6E6FA; /* Lavender background */
+  border-radius: 5px;
+}
+
+.profile-item input {
+  flex: 2;
+  padding: 5px 10px;
+  border: 1px solid #4B0082; /* Indigo border */
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.profile-item input:focus {
+  outline: none;
+  border-color: #4B0082; /* Focus border */
+  box-shadow: 0 0 5px rgba(75, 0, 130, 0.5); /* Indigo glow */
+}
+
+/* Profile Actions */
+.profile-actions {
+  display: flex;
+  justify-content: space-around; /* Even spacing */
+  margin-top: 20px;
+}
+
+.profile-actions button {
+  padding: 10px 20px;
+  background-color: #4B0082; /* Indigo background */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-actions button:hover {
+  background-color: #6A0DAD; /* Slightly lighter Indigo */
+}
+
+.profile-actions button:last-child {
+  background-color: #E6E6FA; /* Lavender background */
+  color: #4B0082; /* Indigo text */
+  border: 1px solid #4B0082; /* Indigo border */
+}
+
+.profile-actions button:last-child:hover {
+  background-color: #D8BFD8; /* Thistle background on hover */
+}
+
+/* Loading Text */
+p {
+  text-align: center;
+  color: #4B0082;
+  font-size: 16px;
+}
+  
+
